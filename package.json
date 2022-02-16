@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node index.js",
         "test": "node test.js",
-        "stop": "kill -9 $(lsof -t -i:5000)"
+        "stop": "kill -9 $(lsof -t -i:18181)"
     },
     "author": "",
     "license": "MIT",
