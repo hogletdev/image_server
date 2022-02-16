@@ -1,0 +1,17 @@
+{
+    "name": "image_server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "node test.js",
+        "stop": "kill -9 $(lsof -t -i:5000)"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "ejs": "^2.6.1",
+        "express": "^4.16.4"
+    }
+}
